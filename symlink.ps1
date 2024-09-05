@@ -1,1 +1,1 @@
-New-Item -Path ~\Documents\PowerShell\Profile.ps1 -ItemType SymbolicLink -Value (Get-Item ".\Profile.ps1").FullName
+New-Item -Path ~\Documents\PowerShell\Profile.ps1 -ItemType SymbolicLink -Value (Get-Item ".\Profile.ps1").FullName -Force
